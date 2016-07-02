@@ -1,0 +1,169 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Ubuntu", sans-serif; 
+	
+	
+}
+
+body header {
+	height: 350px;
+	background-image: url("http://cdn.desktopwallpapers4.me/wallpapers/sports/2560x1440/1/6256-ayrton-senna-2560x1440-sport-wallpaper.jpg"); 
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    font-weight: bold;
+    letter-spacing: 5px;
+    block-size: border-box;
+
+}
+
+body header h1 {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0; 
+	background-color: #000000;
+	font-size: 30px;
+}
+
+body header p {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	right: 0;
+	background-color: #000000; 
+	font-size: 20px;
+}
+
+body main section {
+	padding: 15px;
+}
+
+body main figure {
+	padding: 15px;
+
+}
+
+main figure img, main figure figcaption {
+    width: 290px;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+main section h2 {
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+main section .validity-info {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+section ul li {
+	padding-bottom: 10px;
+}
+
+ul li time, ul li .number {
+	font-weight: bold;
+}
+
+section blockquote p {
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+body footer {
+	background-color: #EEEEEE;
+	text-align: center;
+	padding: 15px;
+}
+
+body footer p {
+	padding-bottom: 10px;
+}
+
+footer p a {
+	color: #BBBBBB;
+}
+footer p a:hover {
+	color: #999999;
+}
+
+@media (min-width: 768px) {
+	body header h1, body header p {
+		left: 100px;
+		right: 100px;
+	}
+
+    body main section {
+    	padding-left: 70px;
+    	padding-right: 70px;
+    	padding-top: 40px;
+    }
+
+    main section h2 {
+    	margin-left: 100px;
+    	margin-right: 100px;
+    }
+
+    main figure img {
+    	width: 628px;
+    }
+
+    section blockquote p {
+    	padding-left: 150px;
+    	padding-right: 150px;
+    	padding-top: 30px;
+    }
+}
+
+@media (min-width: 980px) {
+	body header h1, body header p {
+		left: 200px;
+		right: 200px;
+	}
+
+	body main section {
+    	padding-left: 150px;
+    	padding-right: 150px;
+    	padding-top: 40px;
+    }
+
+     main figure img {
+    	width: 680px;
+    }
+}
+
+@media (min-width: 1200px) {
+	body header h1, body header p {
+		left: 350px;
+		right: 350px;
+	}
+
+	body main section {
+    	padding-left: 300px;
+    	padding-right: 300px;
+    	padding-top: 40px;
+}
+
+@media (min-width: 1900px) {
+	body header h1, body header p {
+		left: 700px;
+		right: 700px;
+	}
+
+	body main section {
+    	padding-left: 600px;
+    	padding-right: 600px;
+    	padding-top: 40px;
+
+}
